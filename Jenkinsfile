@@ -1,4 +1,3 @@
-Can't create, edit, or upload … Not enough storage. Get 100 GB of storage for $1.99 $0 for 1 month.
 pipeline {
     agent any
 
