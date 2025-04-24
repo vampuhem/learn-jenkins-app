@@ -87,6 +87,7 @@ pipeline {
                 sh '''
                     npm install netlify-cli
                     node_modules/.bin/netlify --version
+                    node_modules/.bin/netlify status
                     echo "Deploying to prod site id: $NETLIFY_SITE_ID"
                 '''
             }
