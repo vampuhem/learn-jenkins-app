@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    triggers{
+        githubPush()
+    }
 
     environment {
         NETLIFY_SITE_ID = '48d4840e-820e-436a-a78b-4be714018a41'
